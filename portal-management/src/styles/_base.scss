@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background: $app-background-color 0% 0% no-repeat padding-box;
+    font-family: Roboto-regular, serif;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("/assets/fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("/assets/fonts/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("/assets/fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("/assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+.header-wrapper {
+    height: 91px;
+}
+
+.section {
+    height: calc(100vh - 91px);
+}
+
+.menu-wrapper {
+    width: $menu-width;
+    float: left;
+    height: 100%;
+}
+
+.container-wrapper {
+    height: calc(100% - 152px); // deduct footer height
+    width: calc(100% - 120px);
+    float: left;
+    overflow: auto;
+    background: $app-background-color 0% 0% no-repeat padding-box;
+}
