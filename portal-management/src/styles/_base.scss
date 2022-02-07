@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: $app-background-color 0% 0% no-repeat padding-box;
+    background: #F1F3F7 0% 0% no-repeat padding-box;
     font-family: Roboto-regular, serif;
     font-size: 14px;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .menu-wrapper {
-    width: $menu-width;
+    width: 110px;
     float: left;
     height: 100%;
 }
@@ -44,5 +44,5 @@ body {
     width: calc(100% - 120px);
     float: left;
     overflow: auto;
-    background: $app-background-color 0% 0% no-repeat padding-box;
+    background: #F1F3F7 0% 0% no-repeat padding-box;
 }
